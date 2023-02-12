@@ -51,7 +51,7 @@ function isCollide(snake) {
 function gameEngine() {
     // Part 1: updating the snake array
     if(isCollide(snakeArr)){
-        musicSound.play();
+//         musicSound.play();
 
         gameOverSound.play();
         musicSound.pause();
@@ -61,7 +61,7 @@ function gameEngine() {
         inputDir = { x: 0, y: 0 };
         alert('Game Over. Hit spacebar to play again!');
         snakeArr=[{ x: 13, y: 15 }];
-        musicSound.play();
+//         musicSound.play();
         // score = 0;
 
     }
