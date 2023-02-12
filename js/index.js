@@ -142,7 +142,7 @@ window.addEventListener('keydown',e=>{
     // strating the game 
     inputDir={x:0, y:1} 
     moveSound.play();
-    musicSound.play();
+//     musicSound.play();
 
     switch (e.key) {
         case "ArrowUp":
